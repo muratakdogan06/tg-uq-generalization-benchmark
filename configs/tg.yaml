@@ -2,7 +2,7 @@ run_tag: tg_cms_v4
 out_dir: runs
 
 data:
-  data_csv: "https://raw.githubusercontent.com/muratakdogan/makale-jcim/refs/heads/main/MD_properties.csv"
+  data_csv: "data/MD_properties.csv"
   smiles_col: "SMILES"
   target_col: "T_g (K)"
 
