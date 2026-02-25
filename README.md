@@ -2,7 +2,7 @@
 
 A reproducible benchmarking pipeline for **trustworthy polymer glass transition temperature (Tg) prediction** under **chemical novelty**, combining novelty-aware validation, **split conformal prediction** (distribution-free uncertainty quantification), applicability-domain diagnostics (train–test similarity), and SHAP interpretability.
 
-This repository accompanies the JCIM manuscript:
+This repository accompanies the submitted JCIM manuscript:
 **“Trust Beyond Accuracy: Conformal Uncertainty Quantification Reveals the Generalization Gap in Polymer Tg Prediction.”**
 
 ---
