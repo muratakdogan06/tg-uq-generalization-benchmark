@@ -26,5 +26,4 @@ runs/<run_tag>/
   figs/similarity_ecdf.png
   figs/shap_summary_xgb.png (if enabled)
 
-### Notes on SHAP
-- SVR SHAP via KernelExplainer is possible but usually too slow for routine runs.
+
