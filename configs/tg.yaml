@@ -1,0 +1,40 @@
+run_tag: tg_cms_v4
+out_dir: runs
+
+data:
+  data_csv: "https://raw.githubusercontent.com/muratakdogan/makale-jcim/refs/heads/main/MD_properties.csv"
+  smiles_col: "SMILES"
+  target_col: "T_g (K)"
+
+eval:
+  seeds: [42, 43, 44]
+  regimes: ["stratified", "scaffold", "cluster"]
+  n_folds: 5
+  strat_bins: 10
+  learning_fractions: [0.2, 0.4, 0.6, 0.8, 1.0]
+  cluster_cutoffs: [0.2, 0.3, 0.4]
+  morgan_radius: 2
+  morgan_nbits: 2048
+
+features:
+  add_polymer_proxy_features: true
+
+models:
+  enabled: ["xgb", "svr"]
+  xgb:
+    optuna_trials: 25
+    optuna_inner_folds: 3
+    n_jobs: -1
+  svr:
+    optuna_trials: 25
+    optuna_inner_folds: 3
+
+uncertainty:
+  enabled: true
+  alphas: [0.05, 0.10, 0.20]
+
+shap:
+  enabled: true
+  models: ["xgb"]
+  sample_size: 250
+  random_seed: 123
