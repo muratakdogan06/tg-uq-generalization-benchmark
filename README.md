@@ -45,7 +45,7 @@ See LICENSE.
 If you use this repository, please cite:
 
 The associated manuscript (update with the final bibliographic information when available):
-Akdoğan, M. Trust Beyond Accuracy: Conformal Uncertainty Quantification Reveals the Generalization Gap in Polymer Tg Prediction. JCIM (submitted, 2026).
+Akdoğan, M. Trust Beyond Accuracy: Conformal Uncertainty Quantification Reveals the Generalization Gap in Polymer Tg Prediction. ACS Omega (submitted, 2026).
 
 The dataset source (Project Elwood):
 Schneider, L.; S. M.; Mysona, J.; Liang, H.; Han, M.; Rauscher, P.; Ting, J.; Venkatram, S.; Ross, R.; Schmidt, K.; Blaiszik, B.; Foster, I.; de Pablo, J.
