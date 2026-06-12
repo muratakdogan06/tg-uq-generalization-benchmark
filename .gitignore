@@ -2,4 +2,8 @@
 .venv/
 __pycache__/
 *.pyc
+*.egg-info/
+src/cms_tg.egg-info/
 runs/
+supporting_information/outputs/*
+!supporting_information/outputs/.gitkeep

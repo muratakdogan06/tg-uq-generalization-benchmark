@@ -1,0 +1,9 @@
+{
+  "dataset_id": "b7ed245a5b6d1726",
+  "raw_sha256": "6188bc7ac64f5d4988cae4b310cc57fbe6351129a72b7b5a94b94e575f9e128d",
+  "processed_sha256": "b7ed245a5b6d17263a02560407e793254eb8e131ed5568d7660bef0c7993f82a",
+  "n_rows_processed": 410,
+  "smiles_col": "SMILES",
+  "target_col": "T_g (K)",
+  "data_csv": "https://raw.githubusercontent.com/muratakdogan/makale-jcim/refs/heads/main/MD_properties.csv"
+}
